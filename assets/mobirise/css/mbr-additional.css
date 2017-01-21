@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#ext_menu-0 {
+.mbr-brand__name {
+	font-size: 16px;
+}
+&.mbr-navbar--stuck .mbr-navbar__section {
+	background: #2c2c2c;
+}
+.mbr-navbar__section {
+	background: #2c2c2c;
+}
+.mbr-navbar__hamburger {
+	color: #ffffff;
+}
+.mbr-brand__name a {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+}
+.navbar-toggler {
+	color: #ffffff;
+}
+.close-icon::before, .close-icon::after {
+	background-color: #ffffff;
+}
+.link, .dropdown-item {
+	color: #ffffff;
+}
+.link {
+	font-size: 0.75rem;
+}
+.dropdown-item, .nav-dropdown-sm .link {
+	font-size: 0.812rem;
+}
+.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-menu {
+	background: #0e0e0e;
+}
+.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {
+	background: #202020!important;
+}
+.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded="true"], .nav-dropdown-sm .dropdown-menu {
+	background: #282828;
+}
+.bg-color.transparent .link {
+	color: #ffffff;
+	transition: none;
+}
+.bg-color.transparent.opened .link {
+	transition: color .2s ease-in-out;
+}
+.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-item[aria-expanded="true"] {
+	color: #c0a375!important;
+}
+}
+
+#header2-2 {
+H1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+.btn {
+	font-size: 22px;
+}
+}
+
+#features1-3 {
+.mbr-section-title .mbr-header__text {
+	color: #4c6972;
+}
+.striped .mbr-cards-col:nth-child(2n+1) {
+	background-color: #2e2e2e;
+}
+}
+
+#msg-box3-12 {
+.mbr-header .mbr-header__text {
+	text-align: center;
+}
+.mbr-header .mbr-header__subtext {
+	text-align: center;
+}
+.mbr-article {
+	text-align: center;
+}
+}
+
+#gallery2-4 {
+}
+
+#map1-5 {
+}
+
+#form1-6 {
+.mbr-header__text {
+	color: #ffffff;
+}
+.form-control-label {
+	color: #232323;
+}
+}
+
+#social-buttons2-7 {
+}
+
+#footer1-8 {
+P {
+	color: #ffffff;
+}
+}
